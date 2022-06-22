@@ -28,6 +28,8 @@ All occurrences of a character must be replaced with another character while pre
             {
                 if(!map.containsValue(b))
                     map.put(a,b);
+                else
+                    return false;
             }
         }
         return true;
