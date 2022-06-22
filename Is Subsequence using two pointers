@@ -22,8 +22,7 @@ class Solution {
                 if(l==s.length())
                     return true;
             }
-            else
-                h++;
+            h++;
         }
         return false;
     }
