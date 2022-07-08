@@ -20,7 +20,7 @@ class Solution {
         int maxsum=nums[0];
         
         
-        for(int i=0;i<nums.length;i++)
+        for(int i=1;i<nums.length;i++)
         {
             curMax=Math.max(nums[i],curMax+nums[i]);
             maxsum=Math.max(curMax,maxsum);
